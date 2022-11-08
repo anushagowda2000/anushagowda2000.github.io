@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Register Form</title>
+</head>
+
+<body>
+    <form>
+        <div>
+        <label> enter first Name</label>
+        <input type = "text" name = "firstName" placeholder="enter first Name" required minlength="2" maxlength="12">
+    </div>
+<div>
+    <label>Enter age</label>
+    <input type = "number" name = "age" required minlength="5" maxlength="10">
+</div>
+        <div>
+        <label> enter last time</label>
+        <input type = "text" name = "lastName">
+        <div>
+
+<label> Enter Email Id</label>
+<input type="email" name = "Email">
+    </input>
+
+        <div>
+    <label> Enter Password</label>
+    <input type = "password" name = "password" required minlength="8" maxlength="14">
+        </div>
+        <div>
+            <label> Select gender</label>
+            <input type = "radio" name = "gender">Male
+            <input type = "radio"name = "gender">Female
+            <input type = "radio" name = "gender" checked>Others
+        </div>
+        <div>
+            <label>Select course</label>
+            <input type = "checkbox" disabled>Java
+            <input type = "checkbox">python
+            <input type = "checkbox">data science
+
+        </div>
+<div>
+    <label> select city </label>
+        <select>
+             <option> Bangalore</option>
+             <option>Mysore</option>
+             <option>Ramanagara</option>
+            </select>
+</div>
+
+<div>
+    <input type = "text" name = "country code" value = "+91" size = "1"/>
+    <input type="text" name = "phone" size = "10"/>
+</div>
+
+<div>
+    Address:<textarea cols = "5" rows = "5"></textarea>
+    
+</div>
+
+<select name = "month">
+    <option value = "month">Month</option>
+    <option value = "January">January</option>
+    <option value = "February">February</option>
+</select>
+<select name = "days">
+    <option value = "days">Days</option>
+    <option value = "1">1</option>
+    <option value = "2">2</option>
+</select>
+<select name ="years">
+    <option value="years">years</option>
+    <option value = "2000">2000</option>
+    <option value = "2001">2001</option>
+</select>
+<input type = "submit" value = "submit">
+<div>
+    <label> Select DateOfBirth</label>
+    <input type = "date" name = "DateOfBirth">
+</div>
+<div>
+    <label>Enter Mobile Number</label>
+    <input type="tel" name = "mobileNumber" placeholder="+91 12345567">
+</div>
+<div>
+    <label>Select File/Resume</label>
+    <input type = "file" name = "uploadFile">
+</div>
+<div> 
+  <!---- <input type = "submit">-->
+    <button type = "submit">submit</button>
+    <button type = "reset">reset</button>
+</div>
+    </form>
+</body>
+</html>
