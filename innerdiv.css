@@ -1,0 +1,15 @@
+body{
+    padding: 25px;
+}
+
+.outer-div{
+    padding: 50px;
+    background-color: blueviolet;
+}
+
+.inner-div{
+    max-width: 400px;
+    height: 200px;
+    background-color: cornsilk;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+.box{
+    padding-left: 30px;
+    border: 2px solid red;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.rect{
+    border: 2px solid beige;
+   height: 20px solid blue;
+   width:10px; 
+}

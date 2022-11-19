@@ -1,0 +1,61 @@
+/*
+
+*/
+div p{
+    color: green;
+    
+}
+  
+div > p{
+    color: blue;
+}
+
+div + p{
+    color: orchid;
+}
+
+div ~ p{
+    color: rgb(10,20,45)
+}
+/*position
+top.bottom,right,left
+*/
+
+.static{
+    position: static;
+    left: 100px;
+}
+
+.relative{
+    right :-200px;
+    top: 100px;
+    position: relative;
+    
+}
+
+.absolute{
+    bottom: 0;
+    left: 100px;
+    position: absolute;
+    
+}
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    color: red;
+
+}
+
+.imageparent{
+position: relative;
+}
+
+/*.imagecircle{
+    border-radius: 10%;
+}
+*/
+
+body{
+    margin: 0;
+}
